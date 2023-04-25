@@ -1,0 +1,49 @@
+[
+    {
+    "id":1,
+    "title": "mesa",
+    "description": "mesa rectangular",
+    "code": "15",
+    "price":100,
+    "status":"true",
+    "stock":50,
+    "category":"madera",
+    "thumnail": "sin imagen"
+    },
+
+    {
+    "id":2,
+    "title": "silla",
+    "description": "con almohadon",
+    "code": "11",
+    "price":70,
+    "status":"true",
+    "stock": 20,
+    "category":"madera",
+    "thumnail":  "sin imagen"
+    },
+
+    {
+    "id": 3,
+    "title": "mesa",
+    "description": "mesa ratona",
+    "code": "13",
+    "price": 80,
+    "status":"true",
+    "stock": 15,
+    "category":"metal",
+    "thumnail": "sin imagen"
+    
+    },
+
+    {
+    "title": "lampara",
+    "description": "de pie",
+    "code": "60",
+    "price":50,
+    "status":"true",
+    "stock": 50,
+    "category":"metal",
+    "thumnail":  "sin imagen"
+    }
+    ]
