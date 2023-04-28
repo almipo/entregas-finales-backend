@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 
-class cartManager{
+export default class cartManager{
     constructor (carts=[]){
         this.carts=carts;
         this.path = './src/manager/carts.json'
@@ -48,6 +48,8 @@ getproductByCartId = async (cId)=>{
     }
 }
 
+getCarts = async ()=>
+
 addProductCart = async(cId, pId, quantity = 1) => {
     const item_index = this.carts.findIndex(c =>c.id ===cId)
 
@@ -74,3 +76,4 @@ addProductCart = async(cId, pId, quantity = 1) => {
 
     }
 }
+

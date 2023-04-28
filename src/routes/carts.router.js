@@ -1,15 +1,15 @@
 import { Router } from "express";
 import cartManager from'../manager/cartManager.js'
-import productMabager from '../manager/productManager.js'
+import productsManager from '../manager/productManager.js'
 
 const router = Router()
 
 const cartsManager = new cartManager()
-const productmanager = new productMabager()
+const productManager = new productsManager()
 
 
-const ca= cartsManager.getCarts()
-const product = productmanager.getProducts()
+const ca= cartsManager.getproductByCartId()
+const product = productManager.getProducts()
 
 
 router.get ('/:cId', async(req, res)=>{
